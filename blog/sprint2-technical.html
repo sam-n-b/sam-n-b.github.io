@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sam's blog</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+    
+  <body class="grid">
+    <div class="headerparent"> <img src="../images/wood.png" width="796">
+    <h1 class="titlename h1title">Sam's Blog</h1> 
+    </div>
+    <div class="row">
+      <div class="col-2 button"><A HREF="../index.html">Home</A></div>
+      <div class="col-2 button"><A HREF="sprint2-cultural.html">Learning Agreement</A></div>
+      <div class="col-2 button"><A HREF="sprint2-technical.html">Technical Blog</A></div>
+      <div class="col-2 button"><A HREF="sprint1-cultural.html">Cultural Blog</A></div>
+      <div class="col-2 button">Sprint 4</div>
+      <div class="col-2 button">Sprint 5</div>
+    </div>
+    <h2>Technical Blog</h2>
+    <h3>What are the differences between relative, absolute, and fixed positioning?</h3>
+<p>The Position property in css defines how an element is laid out.</p>
+
+<p><b>Static Positioning</b>. This is the default type of positioning. The element will appear in position of the normal flow of the html document.</p>
+
+<p><b>Relative positioning</b>. This defines where the element will be in relation to itself.
+If you were to define an element's position as left: 40px; then the element would move 40 pixels to the right of its static position. If no positioning attributes are defined, then the element will stay in the same space</p>
+
+
+<p><b>Fixed positioning</b>. This makes the element position itself relative to the browser’s window/viewport as opposed to the positioning in the html document. This means no matter where you scroll in the page, the element will stay in the same place. This type of positioning must be used carefully as it can block other elements.</p>
+
+
+<p><b>Absolute positioning</b>. This allows an element to be positioned in relation to their parent element (which has a relative postion defined). If there is no parent element then it will be postioned in to relation to the html document.  Absolute positioning breaks the element away from the normal document flow and can overlap other elements.</p>
+<img src="../images/positioning.png" alt="positioning example" width="600">
+<p>In the diagram above you can see the Static element is first in the html document but it is overlaid by the fixed element which has been fixed to the top. The fixed element breaks the normal flow of the document. </p>
+<p>The relative element is in the second spot in the html file but has been defined to be 40 pixels away from the left side</p>
+<p>The absolute element has been defined to be 100 pixels down from within its relative parent element.</p>
+
+</body>
+</html>
